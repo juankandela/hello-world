@@ -88,3 +88,21 @@ Want to add even more code and fun styles to your GitHub Pages website? [Follow 
 ## Everything you need to know about GitHub
 
 Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+
+## Recopilar titulares de prensa
+
+Este repositorio incluye un pequeño script en Python que descarga y lista los titulares principales de **Las Provincias** y **Levante-EMV**. Para ejecutarlo:
+
+1. Instala las dependencias:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Ejecuta el script:
+
+   ```bash
+   python news_headlines.py
+   ```
+
+Los titulares se mostrarán en el mismo orden en el que aparecen en cada página. Si el entorno no permite salir a Internet, el script mostrará un mensaje de error en pantalla.
